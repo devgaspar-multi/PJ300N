@@ -1,0 +1,115 @@
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 400;
+  src: url("../fonts/Elza-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 700;
+  src: url("../fonts/Elza-Bold.ttf");
+}
+
+.lamina-PJ300N-container {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: none;
+}
+
+.lamina-PJ300N-container img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.PJ300N-container img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.PJ300N-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.PJ300N-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PJ300N-subtitle {
+  color: #000;
+  text-align: center;
+  font-family: "elza", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-top: 158px;
+  margin-bottom: 46px;
+}
+
+.PJ300N-subtitle-first {
+  color: #000;
+  text-align: center;
+  font-family: "elza", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-top: 158px;
+  margin-bottom: 162px;
+  max-width: 1044px;
+}
+
+.PJ300N-subtitle-last {
+  color: #000;
+  text-align: center;
+  font-family: "elza", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-top: 158px;
+  margin-bottom: 162px;
+  max-width: 1148px;
+}
+
+.PJ300N-txt {
+  color: #000;
+  text-align: center;
+  font-family: "elza", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 0px;
+  margin-bottom: 169px;
+}
+
+.mw800px {
+  max-width: 800px;
+}
+
+.mw700px {
+  max-width: 700px;
+}
+
+.mw650px {
+  max-width: 650px;
+}
+
+.mw600px {
+  max-width: 600px;
+}
+
+.mw450px {
+  max-width: 450px;
+}
