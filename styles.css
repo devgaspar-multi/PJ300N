@@ -22,6 +22,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .PJ300N-container img {
@@ -112,4 +113,123 @@
 
 .mw450px {
   max-width: 450px;
+}
+
+.PJ300N-features-container {
+  margin: 71px 0px 50px 0px;
+  padding: 0px 30px;
+}
+
+.PJ300N-features-cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.PJ300N-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.PJ300N-card img {
+  width: 97px;
+  height: 96px;
+}
+
+.PJ300N-card p {
+  color: #000;
+  text-align: center;
+  font-family: "elza", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 800px) {
+  .PJ300N-features-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .PJ300N-features-container {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .PJ300N-container img {
+    margin: 0px;
+  }
+
+  .PJ300N-subtitle {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: normal;
+    padding: 0px 36px;
+  }
+
+  .PJ300N-subtitle-first,
+  .PJ300N-subtitle-last {
+    margin: 80px 0px;
+    font-size: 24px;
+    line-height: normal;
+    padding: 0px 36px;
+  }
+
+  .PJ300N-txt {
+    font-size: 16px;
+    line-height: normal;
+    padding: 0px 32px;
+    margin-bottom: 60px;
+  }
+
+  .PJ300N-card p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .PJ300N-main-banner-desk {
+    display: none !important;
+  }
+
+  .PJ300N-main-banner-mb {
+    display: flex;
+  }
+}
+
+@media (min-width: 600px) {
+  .PJ300N-main-banner-desk {
+    display: flex;
+  }
+
+  .PJ300N-main-banner-mb {
+    display: none !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .PJ300N-features-cards {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .PJ300N-card {
+    width: 140px;
+  }
+
+  .PJ300N-card img {
+    width: 90px;
+    height: 90px;
+  }
 }
